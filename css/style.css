@@ -8,6 +8,16 @@ html  {
     font-family: 'Roboto', sans-serif;
 }
 
+.clearfix  {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float  {
+    float: left;
+}
+
 main  {
     width: 80%;
     margin: 2em auto;
