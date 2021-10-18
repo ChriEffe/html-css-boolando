@@ -25,10 +25,11 @@ ul  {
 .imgbox  {
     height: 50%;
     width: 30%;
+    display: grid;
     position: relative;
 }
 
-.img  {
+.max-width  {
     max-width: 100%;
 }
 
@@ -62,3 +63,13 @@ ul  {
     font-size: 0.6em;
     color: white;
 }
+
+.second-img  {
+    position: absolute;
+    display:
+}
+
+.hover:hover  {
+    display: none;
+}
+
