@@ -1,0 +1,64 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main  {
+    width: 80%;
+    margin: 2em auto;
+}
+
+ul  {
+    list-style: none;
+}
+
+.red  {
+    color: #eb0037;
+}
+
+.old-price  {
+    text-decoration: line-through;
+    color: black;
+}
+
+.imgbox  {
+    height: 50%;
+    width: 30%;
+    position: relative;
+}
+
+.img  {
+    max-width: 100%;
+}
+
+.caption  {
+    position:absolute;
+    left: 0;
+    bottom: 1em;
+}
+
+.wishlist  {
+    position:absolute;
+    right: 0;
+    top: 1em;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    background-color: white;
+}
+
+.red-sale  {
+    display: inline-block;
+    background-color: #eb0037;
+    padding: 0.4em;
+    font-size: 0.6em;
+    color: white;
+}
+
+.green-material  {
+    display: inline-block;
+    background-color: #00875a;
+    padding: 0.4em;
+    font-size: 0.6em;
+    color: white;
+}
