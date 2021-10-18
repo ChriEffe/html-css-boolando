@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html  {
+    font-family: 'Roboto', sans-serif;
+}
+
 main  {
     width: 80%;
     margin: 2em auto;
@@ -17,15 +21,21 @@ ul  {
     color: #eb0037;
 }
 
+.brand  {
+    font-size: 0.7em;
+}
+
+.bold  {
+    font-weight: bold;
+}
+
 .old-price  {
     text-decoration: line-through;
     color: black;
 }
 
 .imgbox  {
-    height: 50%;
     width: 30%;
-    display: grid;
     position: relative;
 }
 
@@ -66,10 +76,12 @@ ul  {
 
 .second-img  {
     position: absolute;
-    display:
+    left: 0;
+    top: 0;
+    display: none;
 }
 
-.hover:hover  {
-    display: none;
+.hover:hover .second-img  {
+    display: block;
 }
 
