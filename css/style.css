@@ -60,6 +60,10 @@ ul  {
     margin: 0 1em;
 }
 
+.margin-top  {
+    margin-top: 2em;
+}
+
 .caption  {
     position:absolute;
     left: 0;
@@ -70,7 +74,6 @@ ul  {
     position:absolute;
     right: 0;
     top: 1em;
-    display: inline-block;
     padding: 0.3em 0.6em;
     background-color: white;
 }
@@ -101,4 +104,3 @@ ul  {
 .hover:hover .second-img  {
     display: block;
 }
-
